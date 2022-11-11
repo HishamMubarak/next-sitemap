@@ -311,7 +311,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 export default function SitemapIndex() {}
 ```
 
-Now, `next.js` is serving the dynamic index-sitemap from `http://localhost:3000/server-sitemap-index.xml`.
+Now, `next.js` is serving the dynamic index-sitemap from `http://localhost:3000/server-sitemap.xml`.
 
 List the dynamic sitemap page in `robotsTxtOptions.additionalSitemaps` and exclude this path from static sitemap list.
 
